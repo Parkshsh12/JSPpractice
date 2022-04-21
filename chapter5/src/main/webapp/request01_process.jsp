@@ -9,10 +9,10 @@
 <body>
 	<%
 		request.setCharacterEncoding("utf-8");
-		String useid = request.getParameter("name");
-		String passward = request.getParameter("passward");
+		String useid = request.getParameter("id");
+		String passwd = request.getParameter("passwd");
 	%>
 	<p> 아이디 : <%=useid %>
-	<p> 비밀번호 : <%=passward %>
+	<p> 비밀번호 : <%=passwd %>
 </body>
 </html>

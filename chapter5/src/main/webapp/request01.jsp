@@ -8,9 +8,9 @@
 </head>
 <body>
 	<form action="request01_process.jsp" method="post">
-		<p> 아이디 : <input type="text" name="id">
-		<p> 비밀번호 : <input type="text" name="passward">
-		<p> <input type="submit" value="전송">
+		<p> 아이디: <input type="text" name="id">
+		<p> 비밀번호: <input type="text" name="passwd">
+		<p> <input type="submit" value="제출">
 	</form>
 </body>
 </html>
