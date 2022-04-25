@@ -20,6 +20,7 @@
 			FileItem fileItem = (FileItem)params.next();
 			if(!fileItem.isFormField()){
 				String fileName = fileItem.getName();
+				System.out.println(fileName+"getNAme()함수 호출");
 				fileName = fileName.substring(fileName.lastIndexOf("\\") + 1);
 				File file = new File(fileUploadPath + "/" + fileName);
 				fileItem.write(file);
